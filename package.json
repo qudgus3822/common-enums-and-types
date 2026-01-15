@@ -1,7 +1,15 @@
 {
-  "name": "@barcode-plus/shared",
+  "name": "@my-project/shared",
   "version": "1.0.0",
-  "description": "Common enums and types",
-  "main": "index.ts",  
-  "license": "ISC"
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "tcs": "^10.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }

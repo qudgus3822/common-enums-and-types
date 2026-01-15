@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",         // 최신 브라우저/Node 지원
+    "module": "CommonJS",       // Node.js 환경 호환성 (프런트에서도 인식 가능)
+    "declaration": true,        // 중요! *.d.ts 타입 정의 파일 생성
+    "outDir": "./dist",         // 빌드 결과물이 저장될 폴더
+    "rootDir": "./",            // 소스 파일 위치
+    "strict": true,             // 엄격한 타입 체크
+    "esModuleInterop": true,    // 라이브러리 호환성
+    "skipLibCheck": true
+  },
+  "include": ["index.ts", "src/**/*"], // 빌드에 포함할 파일
+  "exclude": ["node_modules", "dist"]
+}
