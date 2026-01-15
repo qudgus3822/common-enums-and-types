@@ -6,9 +6,6 @@
   "scripts": {
     "build": "tsc"
   },
-  "dependencies": {
-    "tcs": "^10.0.2"
-  },
   "devDependencies": {
     "typescript": "^5.9.3"
   }
