@@ -1,0 +1,7 @@
+{
+  "name": "@barcode-plus/shared",
+  "version": "1.0.0",
+  "description": "Common enums and types",
+  "main": "index.ts",  
+  "license": "ISC"
+}
